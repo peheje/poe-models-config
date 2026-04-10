@@ -68,6 +68,15 @@ Instructions:
 7. Be thorough but readable - this is a deep research output, not a superficial summary
 8. Highlight consensus OR disagreements across sources, and note when claims are contested
 
+IMPORTANT: At the end of your response, add a "Sources" section in this exact format:
+---
+**Sources:**
+[1] [query text]
+[2] [query text]
+[3] [query text]
+...
+---
+
 Begin your synthesized response:"""
 
 MAX_SEARCH_RESULTS_LENGTH = 8000
