@@ -1,0 +1,20 @@
+{
+  "name": "poe-models-config",
+  "version": "1.0.0",
+  "description": "Fetch latest Poe models and generate opencode config",
+  "module": "src/index.ts",
+  "type": "module",
+  "bin": {
+    "poe-models-config": "src/index.ts"
+  },
+  "scripts": {
+    "start": "bun src/index.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
